@@ -1,0 +1,41 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css');
+
+
+.item {
+    margin-bottom: 25px;
+}
+
+.item-price {
+    display: flex;
+    font-size: 1rem;
+}
+
+.item-name {
+    font-size: 1.1rem;
+    flex: 1 1 auto;
+}
+
+
+.item-description {
+    font-size: 0.8rem;
+    color:  rgb(129, 129, 129);
+}
+
+.icon-link {
+    margin-left: 15px;
+    display: flex;
+    font-size: 0.8rem;
+    text-decoration: none;
+    background: rgb(143, 37, 37);
+    color: white;
+    width: 1.12rem;
+    height: 1.12rem;
+    border-radius: 100%;
+    box-shadow: 
+        1rem 1rem 2rem rgba(0, 0, 0, 0.1),
+        -1rem -1rem 2rem rgba(255, 255, 255, 0.5);    
+}
+
+.icon-link i {
+    margin: auto;
+}

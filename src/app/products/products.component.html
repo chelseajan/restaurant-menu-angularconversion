@@ -1,0 +1,15 @@
+<h2>Menu Items</h2>
+
+<div class="item-section">Appetizers</div> 
+
+    <div class="item" [ngIf]="items.type == "appetizers"  *ngFor="let item of items" >
+        <div class="item-price">
+            <div class="item-name">{{ item.name }}</div>
+            <div class="item-price">{{ item.price }}</div>
+            <a href="#" class="icon-link" (click)="countItems()"><i class="fas fa-plus"></i></a>
+        </div>   
+        <div class="item-description">{{ item.description }}</div>
+    </div>
+
+
+<p>Total number of items ordered: {{ itemCounter }}</p>
